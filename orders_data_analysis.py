@@ -15,7 +15,7 @@ from urllib.parse import quote_plus
 # In[2]:
 
 
-get_ipython().system('kaggle datasets download ankitbansal06/retail-orders -f orders.csv')
+#'kaggle datasets download ankitbansal06/retail-orders -f orders.csv' terminal command
 
 
 # In[3]:
@@ -97,7 +97,7 @@ df.columns
 # In[30]:
 
 
-get_ipython().system('jupyter nbconvert --to script orders_data_analysis.ipynb')
+# 'jupyter nbconvert --to script orders_data_analysis.ipynb' terminal command
 
 
 # In[ ]:
